@@ -1,0 +1,14 @@
+{
+  "src": "mongodb://wash-mon-test:jNiLQgUKtZcj0DNW@localhost:27017/wash-mon-test",
+  "srcDb":"wash-mon-test",
+  "dist": "mysql://root:123@localhost:3306/test",
+  "prefix": "",
+  "case": "camel",
+  "collections": {
+    "site": {
+      "_id": "string",
+      "siteId": "int",
+      "name": "string"
+    }
+  }
+}
